@@ -1,4 +1,6 @@
 #!/bin/bash
+# Note: This is deprecated with 8.0.1 because this is API-enabled now
+#
 curl -s https://raw.githubusercontent.com/mercutioviz/ngf-azure-templates/master/NGF-Quickstart-HA-1NIC-AS-ELB-ILB-STD/simple-ha.fwrule > /tmp/template.fwrule
 red=$1
 green=$2
